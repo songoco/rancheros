@@ -1,0 +1,11 @@
+rancher:
+    network:
+        interfaces:
+            eth0:
+                address: 192.168.20.180/24
+                gateway: 192.168.20.1
+                mtu: 1500
+                dhcp: false
+
+ssh_authorized_keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC40q5xemJdk5sB3tHkEQSnUbe25ic/bueRTTnfr7kgkg27C3g/5k39nRhjeX2q0ea8A1RgcpZmwFqZJZsVKErb3/abJrquRWYljgNAFz/D3AuNZ6SrKyhm2QlNYpFOduz4oYlJLV2r/OQJkQW4zTwTx6lgqNgmEazMeh4jYhWg+F0Cp9RQ9jzqbofW2YPK4vyvgYHVPgTvpQI9Vhn/hzeSZAXZeD5zzxysCnmuY6N7PdUxinWrKCsiVg8x+pXyuZhiwxg0H0iQMmpe0gtlnztSyZo/TNGe4WZa8hYUo80YbSReCRBuMXdiiXCFlHxUuE28Es1NOizWByciQr/HqR9PsdfZ7fjujZvE/yNfXdPcFNVH5wqD6aIDGpKl9Yigl0ab/PspEWa84zGBpI1v+6VDR23SDjOJHzHswnc4Bq5ACQLD4KwuNqcBq3vhIwwg6sMCFov+NRMP7DCvI51eHdR11mpTy+NUKxxypOAc+tGPFqLJbjSvBqdHxoIJ0qn7/ZU= root@22-12-15-1109
